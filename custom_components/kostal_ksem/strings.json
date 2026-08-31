@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Kostal KSEM",
+        "description": "Enter the connection details for your Kostal KSEM smart meter.",
+        "data": {
+          "host": "Host / IP address",
+          "username": "Username",
+          "password": "Password"
+        }
+      },
+      "reconfigure": {
+        "title": "Reconfigure Kostal KSEM",
+        "data": {
+          "host": "Host / IP address",
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to the device. Check the host address.",
+      "invalid_auth": "Invalid credentials. Check username and password.",
+      "unknown": "Unexpected error. Check the logs for details."
+    },
+    "abort": {
+      "already_configured": "This device is already configured."
+    }
+  }
+}

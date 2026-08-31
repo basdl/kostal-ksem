@@ -1,0 +1,10 @@
+DOMAIN = "kostal_ksem"
+
+CONF_HOST = "host"
+CONF_USERNAME = "username"
+CONF_PASSWORD = "password"
+
+DEFAULT_HOST = "192.168.0.107"
+DEFAULT_USERNAME = "user"
+CLIENT_ID = "emos"
+CLIENT_SECRET = "56951025"
